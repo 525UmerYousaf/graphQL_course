@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 
+import './screens/home_screen.dart';
+import './screens/registration_screen.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -10,11 +13,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Flutter Communities',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: Container(),
+      initialRoute: RegistrationScreen.routeName,
+      routes: {
+        HomeScreen.routeName: (_) => const HomeScreen(),
+        RegistrationScreen.routeName: (_) => const RegistrationScreen(),
+      },
     );
   }
 }
