@@ -1,3 +1,4 @@
+// ignore_for_file: avoid_print
 import 'package:ferry/ferry.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -17,5 +18,3 @@ final ferryClientProvider = Provider<Client>((ref) {
     }),
   );
 });
-
-//  2.26
