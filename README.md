@@ -1,16 +1,33 @@
-# flutter_graphql
+# flutter_communities
+A Flutter app built with GraphQL
+# Get Started
+In a terminal:
 
-A new Flutter project.
+```bash
+# Clone the repository'
+git clone https://github.com/525UmerYousaf/graphQL_course.git
 
-## Getting Started
+# Go to directory
+cd flutter_communities
 
-This project is a starting point for a Flutter application.
+# Switch to first branch
+git checkout first
 
-A few resources to get you started if this is your first Flutter project:
+# Run the project
+flutter run
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Usage
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Generate GraphQL types:
+```bash
+flutter pub run build_runner build --delete-conflicting-outputs
+
+# For fvm users
+fvm flutter pub run build_runner build --delete-conflicting-outputs
+```
+
+# Fauna
+
+Debug FQL statements:
+`Abort(Format("%@", VALUE_TO_BE_CHECKED))
