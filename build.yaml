@@ -7,18 +7,18 @@ targets:
         enabled: true
       gql_build|data_builder:
         enabled: true
-        otpions:
-          schema: flutter_communitites|lib/graphql/schema/graphql
+        options:
+          schema: flutter_graphql|lib/graphql/schema.graphql
       gql_build|var_builder:
         enabled: true
         options:
-          schema: flutter_communities|lib/graphql/schema.graphql
+          schema: flutter_graphql|lib/graphql/schema.graphql
       gql_build|serializer_builder:
         enabled: true
         options:
-          schema: flutter_communities|lib/graphql/schema.graphql
-      
+          schema: flutter_graphql|lib/graphql/schema.graphql
+
       ferry_generator|req_builder:
         enabled: true
         options:
-          schema: flutter_communities|lib/graphql/schema.graphql
+          schema: flutter_graphql|lib/graphql/schema.graphql
