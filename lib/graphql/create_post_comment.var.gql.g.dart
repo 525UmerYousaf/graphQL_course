@@ -1,5 +1,7 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
+// ignore_for_file: library_private_types_in_public_api, no_leading_underscores_for_local_identifiers, duplicate_ignore
+
 part of 'create_post_comment.var.gql.dart';
 
 // **************************************************************************
@@ -130,6 +132,7 @@ class GCreatePostCommentVarsBuilder
 
   @override
   _$GCreatePostCommentVars build() {
+    // ignore: no_leading_underscores_for_local_identifiers
     _$GCreatePostCommentVars _$result;
     try {
       _$result = _$v ?? new _$GCreatePostCommentVars._(data: data.build());

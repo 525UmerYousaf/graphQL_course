@@ -1,5 +1,7 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
+// ignore_for_file: no_leading_underscores_for_local_identifiers, library_private_types_in_public_api
+
 part of 'get_community.req.gql.dart';
 
 // **************************************************************************

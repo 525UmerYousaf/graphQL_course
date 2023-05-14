@@ -1,5 +1,7 @@
 // GENERATED CODE - DO NOT MODIFY BY HAND
 
+// ignore_for_file: no_leading_underscores_for_library_prefixes, depend_on_referenced_packages, constant_identifier_names
+
 import 'package:gql/ast.dart' as _i1;
 
 const PostCommentFragment = _i1.FragmentDefinitionNode(
